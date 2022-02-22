@@ -13,8 +13,11 @@
     "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
+    "noImplicitAny": false,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@alfiant-ui/react": ["packages/react/src/index.js"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
