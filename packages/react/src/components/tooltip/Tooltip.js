@@ -16,6 +16,12 @@ const StyledArrow = styled(TooltipPrimitive.Arrow, {
   fill: 'white',
 });
 
+// Exports
+const Provider = TooltipPrimitive.Provider;
+const Tooltip = TooltipPrimitive.Root;
+const TooltipTrigger = TooltipPrimitive.Trigger;
+const TooltipContent = StyledContent;
+
 // Your app...
 const IconButton = styled('button', {
   all: 'unset',

@@ -8,12 +8,29 @@ const StyledButton = styled('button', {
   '&:hover': {
     backgroundColor: 'lightgray',
   },
-  cursor: 'pointer'
+  cursor: 'pointer',
+  variants: {
+    color: {
+      violet: {
+        backgroundColor: 'blueviolet',
+        color: 'white',
+        '&:hover': {
+          backgroundColor: 'darkviolet',
+        },
+      },
+      gray: {
+        backgroundColor: 'gainsboro',
+        '&:hover': {
+          backgroundColor: 'lightgray',
+        },
+      },
+    },
+  },
 });
 
-export function Button({ children }) {
+export function Button({ children, color }) {
   return (
-    <StyledButton>{children}</StyledButton>
+    <StyledButton color={color}>{children}</StyledButton>
   );
 }
 

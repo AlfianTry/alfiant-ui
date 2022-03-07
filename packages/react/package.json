@@ -1,4 +1,11 @@
 {
   "name": "@alfiant-ui/react",
-  "version": "0.0.2"
+  "version": "0.0.4",
+  "types": "index.d.ts",
+  "dependencies": {
+    "@alfiant-ui/core": "0.0.3",
+    "@radix-ui/react-icons": "^1.1.0",
+    "@radix-ui/react-tooltip": "^0.1.6",
+    "@stitches/react": "^1.2.6"
+  }
 }

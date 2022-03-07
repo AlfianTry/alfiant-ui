@@ -9,5 +9,6 @@ const Template = (args) => <Button {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
-  children: 'Hello World!'
+  children: 'Hello World!',
+  color: 'violet'
 };
